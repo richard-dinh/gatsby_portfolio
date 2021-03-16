@@ -1,0 +1,6 @@
+@media (min-width: 900px) {
+    .card_style {
+        display: grid; 
+        grid-template-columns: 60% 1fr;
+    }
+}
