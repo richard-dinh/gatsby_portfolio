@@ -27,9 +27,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Richard Dinh Portfolio`,
+        short_name: `Portfolio`,
+        description: `Richard Dinh Portfolio`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -46,6 +46,6 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
-    },
+    }
   ].filter(Boolean),
 }
