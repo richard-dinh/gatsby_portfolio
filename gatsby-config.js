@@ -12,6 +12,7 @@ module.exports = {
     siteTitle: `Richard Dinh Portfolio`,
     siteTitleAlt: `Richard Dinh Portfolio`,
   },
+  pathPrefix: "/gatsby_portfolio",
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
@@ -46,6 +47,6 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
-    }
+    },
   ].filter(Boolean),
-}
+};
