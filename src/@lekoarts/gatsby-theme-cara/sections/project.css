@@ -1,3 +1,9 @@
+.github_link{
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+
 @media (min-width: 900px) {
     .card_style {
         display: grid; 
